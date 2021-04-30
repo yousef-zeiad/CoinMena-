@@ -7,7 +7,7 @@ Describes the app structure and usage of each part. Add additional ReadMe-files 
 
 - [assets](./assets) - place any images and fonts here
 - [components](./components) - see **[Components](#Components)** section
-- [vews](./views) - main app code divided by feature. A feature folder contains all the screens, components, hooks etc for that feature.
+- [views](./views) - main app code divided by feature. A feature folder contains all the screens, components, hooks etc for that feature.
 - [navigation](./navigation/ReadMe.md) - [react-navigation](https://reactnavigation.org/) implementation.
 
 # Scripts
