@@ -11,7 +11,7 @@ import Navigation from './navigation';
 const App: React.FC = () => {
   return (
     <>
-      <StatusBar barStyle={'light-content'} />
+      <StatusBar barStyle={'light-content'} backgroundColor='#03254c' />
       <Navigation colorScheme="light" />
     </>
   );

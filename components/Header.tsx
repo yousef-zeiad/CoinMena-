@@ -14,7 +14,8 @@ const HeaderContainer = styled(SafeAreaView)`
   paddingLeft: 20px;
   paddingTop: ${Platform.select({ ios: 20, android: 20 })}px;
   paddingRight: 20px;
-  background-color:${Colors.primary}
+  background-color:${Colors.primary};
+  paddingBottom:20px
 `;
 const HeaderTitle = styled.Text`
   fontSize: 20px;

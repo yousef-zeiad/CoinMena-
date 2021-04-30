@@ -17,8 +17,8 @@ import Colors from '../Colors';
 
 export const Input = styled.TextInput<{ disabled?: boolean; error?: string }>`
   font-size: 16px;
-  margin-bottom: 0px;
-  height: 30px;
+  margin-bottom: 10px;
+  height: 40px;
   color: ${(props) =>
     props.error ? Colors.error : props.disabled ? Colors.inputLabel : 'black'};
 `;
